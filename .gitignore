@@ -1,0 +1,21 @@
+# Miden Database & Wallet Secrets
+*.sqlite3
+*.sqlite
+store.sqlite3
+miden-client.toml
+keystore/
+*.key
+*.mac
+*.mno
+*.secret
+
+# Environment & Configs
+.env
+.env.*
+
+# Python & System
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
